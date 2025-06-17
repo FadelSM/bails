@@ -12,10 +12,7 @@ export declare const Browsers: {
     /** The appropriate browser based on your OS & release */
     appropriate: (browser: any) => [string, string, string];
 };
-export declare const BufferJSON: {
-    replacer: (k: any, value: any) => any;
-    reviver: (_: any, value: any) => any;
-};
+export declare const getPlatformId: (browser: string) => any;
 export declare const getKeyAuthor: (key: proto.IMessageKey | undefined | null, meId?: string) => string;
 export declare const writeRandomPadMax16: (msg: Uint8Array) => Buffer;
 export declare const unpadRandomMax16: (e: Uint8Array | Buffer) => Uint8Array;
