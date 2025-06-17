@@ -7,5 +7,5 @@ export declare const generateRegistrationNode: ({ registrationId, signedPreKey, 
 export declare const configureSuccessfulPairing: (stanza: BinaryNode, { advSecretKey, signedIdentityKey, signalIdentities }: Pick<AuthenticationCreds, 'advSecretKey' | 'signedIdentityKey' | 'signalIdentities'>) => {
     creds: Partial<AuthenticationCreds>;
     reply: BinaryNode;
-};
+}; 
 export declare const encodeSignedDeviceIdentity: (account: proto.IADVSignedDeviceIdentity, includeSignatureKey: boolean) => Uint8Array;
