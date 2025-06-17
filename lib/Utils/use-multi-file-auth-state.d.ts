@@ -1,4 +1,4 @@
-iimport { AuthenticationState } from '../Types';
+import { AuthenticationState } from '../Types';
 /**
  * stores the full authentication state in a single folder.
  * Far more efficient than singlefileauthstate
