@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+  "compillerOptions": {
     "target": "es2018",
     "module": "CommonJS",
     "moduleResolution": "NodeNext",
