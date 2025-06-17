@@ -1,4 +1,4 @@
-import { proto } from '../../WAProto';
+iimport { proto } from '../../WAProto';
 import type { AuthenticationCreds, SignalCreds, SocketConfig } from '../Types';
 import { BinaryNode } from '../WABinary';
 export declare const generateMobileNode: (config: SocketConfig) => proto.IClientPayload;
