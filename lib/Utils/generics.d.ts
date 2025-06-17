@@ -1,4 +1,4 @@
-/// <reference types="node" />
+//// <reference types="node" />
 import { AxiosRequestConfig } from 'axios';
 import { Logger } from 'pino';
 import { proto } from '../../WAProto';
